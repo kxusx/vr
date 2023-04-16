@@ -1,0 +1,527 @@
+{
+    "articles": [
+      {
+        "_objectname": "Dialog Box",
+        "_sid": "_DLG1",
+        "_slabel": "Dialog",
+        "_IsHidden": 0,
+        "_enumcount": 1,
+        "_Is3DObject": 0,
+        "HasChild": 0,
+        "shape": "Rectangle",
+        "dimension": {
+          "dradii": "null",
+          "dvolumn": "null",
+          "dlength": 100,
+          "dbreadth": 100,
+          "dheight": "null"
+        },
+        "IsText": false,
+        "IsText3D": false,
+        "lighting": {
+          "CastShadow": "0",
+          "ReceiveShadow": "0",
+          "ContributeGlobalIlumination": "0"
+        },
+        "IsIlluminate": false,
+        "Transform_initialpos": {
+          "#x_initialpos": "0",
+          "#y_initialpos": "0",
+          "#z_initialpos": "0"
+        },
+        "Transform_initialrotation": {
+          "#x_initialrotation": "0",
+          "#y_initialrotation": "0",
+          "#z_initialrotation": "0"
+        },
+        "Transform_objectscale": {
+          "#x_objectscale": "1",
+          "#y_objectscale": "1",
+          "#z_objectscale": "1"
+        },
+        "repeattransfrom": {
+          "distfactorx": "null",
+          "distfactory": "null",
+          "distfactorz": "null"
+        },
+        "Interaction": {
+          "XRGrabInteractable": "0",
+          "XRInteractionMaskLayer": "nothing/everything/custom",
+          "TrackPosition": "0",
+          "TrackRotation": "0",
+          "Throw_Detach": "0",
+          "forcegravity": "0",
+          "velocity": "0",
+          "angularvelocity": "0"
+        },
+        "Smoothing": "null",
+        "Smoothing_duration": "null",
+        "attachtransform": {
+          "#rotate_x": "null",
+          "#rotate_y": "null",
+          "#rotate_z": "null",
+          "#pos_x": "null",
+          "#pos_y": "null",
+          "#pos_z": "null"
+        },
+        "XRRigidObject": {
+          "value": "10",
+          "mass": "0",
+          "dragfriction": "0",
+          "angulardrag": "0",
+          "Isgravityenable": "false",
+          "IsKinematic": "0",
+          "CanInterpolate": "false",
+          "CollisionPolling": "0"
+        },
+        "aud_hasaudio": "0",
+        "aud_type": "null",
+        "aud_src": "null",
+        "aud_volume": "null",
+        "aud_PlayInloop": "0",
+        "aud_IsSurround": "0",
+        "aud_Dopplerlevel": "0",
+        "aud_spread": "null",
+        "aud_mindist": "null",
+        "aud_maxdist": "null",
+        "_Opttxt1": "null",
+        "@context_img_source": "blank"
+      },
+      {
+        "_objectname": "Medieval Sword",
+        "_sid": "_SWD1",
+        "_slabel": "Sword",
+        "_IsHidden": 0,
+        "_enumcount": 1,
+        "_Is3DObject": 1,
+        "HasChild": 0,
+        "shape": "Elongated Rectangle",
+        "dimension": {
+          "dradii": "null",
+          "dvolumn": "null",
+          "dlength": 100,
+          "dbreadth": 10,
+          "dheight": 2
+        },
+        "IsText": false,
+        "IsText3D": false,
+        "lighting": {
+          "CastShadow": "1",
+          "ReceiveShadow": "1",
+          "ContributeGlobalIlumination": "0"
+        },
+        "IsIlluminate": false,
+        "Transform_initialpos": {
+          "#x_initialpos": "10",
+          "#y_initialpos": "0",
+          "#z_initialpos": "0"
+        },
+        "Transform_initialrotation": {
+          "#x_initialrotation": "30",
+          "#y_initialrotation": "0",
+          "#z_initialrotation": "0"
+        },
+        "Transform_objectscale": {
+          "#x_objectscale": "1",
+          "#y_objectscale": "1",
+          "#z_objectscale": "1"
+        },
+        "repeattransfrom": {
+          "distfactorx": "null",
+          "distfactory": "null",
+          "distfactorz": "null"
+        },
+        "Interaction": {
+          "XRGrabInteractable": "1",
+          "XRInteractionMaskLayer": "nothing/everything/custom",
+          "TrackPosition": "1",
+          "TrackRotation": "1",
+          "Throw_Detach": "1",
+          "forcegravity": "1",
+          "velocity": "3",
+          "angularvelocity": "0"
+        },
+        "Smoothing": "1",
+        "Smoothing_duration": "0.5",
+        "attachtransform": {
+          "#rotate_x": "null",
+          "#rotate_y": "null",
+          "#rotate_z": "null",
+          "#pos_x": "null",
+          "#pos_y": "null",
+          "#pos_z": "null"
+        },
+        "XRRigidObject": {
+          "value": "10",
+          "mass": "5",
+          "dragfriction": "2",
+          "angulardrag": "0",
+          "Isgravityenable": "true",
+          "IsKinematic": "1",
+          "CanInterpolate": "true",
+          "CollisionPolling": "discreet/continous"
+        },
+        "aud_hasaudio": "1",
+        "aud_type": "static/dynamic",
+        "aud_src": "resources/sword_audio.mp3",
+        "aud_volume": "10",
+        "aud_PlayInloop": "0",
+        "aud_IsSurround": "0",
+        "aud_Dopplerlevel": "0",
+        "aud_spread": "null",
+        "aud_mindist": "null",
+        "aud_maxdist": "null",
+        "_Opttxt1": "null",
+        "@context_img_source": "blank"
+      },
+      {
+        "_objectname": "Medieval Mace",
+        "_sid": "_MCE1",
+        "_slabel": "Mace",
+        "_IsHidden": 0,
+        "_enumcount": 1,
+        "_Is3DObject": 1,
+        "HasChild": 0,
+        "shape": "Cylindrical with spiky head",
+        "dimension": {
+          "dradii": 15,
+          "dvolumn": "null",
+          "dlength": 100,
+          "dbreadth": 10,
+          "dheight": 2
+        },
+        "IsText": false,
+        "IsText3D": false,
+        "lighting": {
+          "CastShadow": "1",
+          "ReceiveShadow": "1",
+          "ContributeGlobalIlumination": "0"
+        },
+        "IsIlluminate": false,
+        "Transform_initialpos": {
+          "#x_initialpos": "10",
+          "#y_initialpos": "0",
+          "#z_initialpos": "0"
+        },
+        "Transform_initialrotation": {
+          "#x_initialrotation": "30",
+          "#y_initialrotation": "0",
+          "#z_initialrotation": "0"
+        },
+        "Transform_objectscale": {
+          "#x_objectscale": "1",
+          "#y_objectscale": "1",
+          "#z_objectscale": "1"
+        },
+        "repeattransfrom": {
+          "distfactorx": "null",
+          "distfactory": "null",
+          "distfactorz": "null"
+        },
+        "Interaction": {
+          "XRGrabInteractable": "1",
+          "XRInteractionMaskLayer": "nothing/everything/custom",
+          "TrackPosition": "1",
+          "TrackRotation": "1",
+          "Throw_Detach": "1",
+          "forcegravity": "1",
+          "velocity": "2",
+          "angularvelocity": "0"
+        },
+        "Smoothing": "1",
+        "Smoothing_duration": "0.5",
+        "attachtransform": {
+          "#rotate_x": "null",
+          "#rotate_y": "null",
+          "#rotate_z": "null",
+          "#pos_x": "null",
+          "#pos_y": "null",
+          "#pos_z": "null"
+        },
+        "XRRigidObject": {
+          "value": "10",
+          "mass": "8",
+          "dragfriction": "2",
+          "angulardrag": "0",
+          "Isgravityenable": "true",
+          "IsKinematic": "1",
+          "CanInterpolate": "true",
+          "CollisionPolling": "discreet/continous"
+        },
+        "aud_hasaudio": "1",
+        "aud_type": "static/dynamic",
+        "aud_src": "resources/mace_audio.mp3",
+        "aud_volume": "10",
+        "aud_PlayInloop": "0",
+        "aud_IsSurround": "0",
+        "aud_Dopplerlevel": "0",
+        "aud_spread": "null",
+        "aud_mindist": "null",
+        "aud_maxdist": "null",
+        "_Opttxt1": "null",
+        "@context_img_source": "blank"
+      },
+      {
+        "_objectname": "Medieval Axe",
+        "_sid": "_AXE1",
+        "_slabel": "Axe",
+        "_IsHidden": 0,
+        "_enumcount": 1,
+        "_Is3DObject": 1,
+        "HasChild": 0,
+        "shape": "Cylindrical with Sharp triangular head",
+        "dimension": {
+          "dradii": 15,
+          "dvolumn": "null",
+          "dlength": 100,
+          "dbreadth": 10,
+          "dheight": 2
+        },
+        "IsText": false,
+        "IsText3D": false,
+        "lighting": {
+          "CastShadow": "1",
+          "ReceiveShadow": "1",
+          "ContributeGlobalIlumination": "0"
+        },
+        "IsIlluminate": false,
+        "Transform_initialpos": {
+          "#x_initialpos": "10",
+          "#y_initialpos": "0",
+          "#z_initialpos": "0"
+        },
+        "Transform_initialrotation": {
+          "#x_initialrotation": "30",
+          "#y_initialrotation": "0",
+          "#z_initialrotation": "0"
+        },
+        "Transform_objectscale": {
+          "#x_objectscale": "1",
+          "#y_objectscale": "1",
+          "#z_objectscale": "1"
+        },
+        "repeattransfrom": {
+          "distfactorx": "null",
+          "distfactory": "null",
+          "distfactorz": "null"
+        },
+        "Interaction": {
+          "XRGrabInteractable": "1",
+          "XRInteractionMaskLayer": "nothing/everything/custom",
+          "TrackPosition": "1",
+          "TrackRotation": "1",
+          "Throw_Detach": "1",
+          "forcegravity": "1",
+          "velocity": "2",
+          "angularvelocity": "0"
+        },
+        "Smoothing": "1",
+        "Smoothing_duration": "0.5",
+        "attachtransform": {
+          "#rotate_x": "null",
+          "#rotate_y": "null",
+          "#rotate_z": "null",
+          "#pos_x": "null",
+          "#pos_y": "null",
+          "#pos_z": "null"
+        },
+        "XRRigidObject": {
+          "value": "10",
+          "mass": "8",
+          "dragfriction": "2",
+          "angulardrag": "0",
+          "Isgravityenable": "true",
+          "IsKinematic": "1",
+          "CanInterpolate": "true",
+          "CollisionPolling": "discreet/continous"
+        },
+        "aud_hasaudio": "1",
+        "aud_type": "static/dynamic",
+        "aud_src": "resources/axe_audio.mp3",
+        "aud_volume": "10",
+        "aud_PlayInloop": "0",
+        "aud_IsSurround": "0",
+        "aud_Dopplerlevel": "0",
+        "aud_spread": "null",
+        "aud_mindist": "null",
+        "aud_maxdist": "null",
+        "_Opttxt1": "null",
+        "@context_img_source": "blank"
+      },
+      {
+        "_objectname": "Armor Plate",
+        "_sid": "_AMR1",
+        "_slabel": "This is used as ingame Armor",
+        "_IsHidden": 0,
+        "_enumcount": 1,
+        "_Is3DObject": 1,
+        "HasChild": 0,
+        "shape": "Hollow Cuboid",
+        "dimension": {
+          "dradii": "N/A",
+          "dvolumn": "N/A",
+          "dlength": 100,
+          "dbreadth": 10,
+          "dheight": 20
+        },
+        "IsText": false,
+        "IsText3D": false,
+        "lighting": {
+          "CastShadow": "1",
+          "ReceiveShadow": "1",
+          "ContributeGlobalIlumination": "1"
+        },
+        "IsIlluminate": true,
+        "Transform_initialpos": {
+          "#x_initialpos": "0",
+          "#y_initialpos": "0",
+          "#z_initialpos": "0"
+        },
+        "Transform_initialrotation": {
+          "#x_initialrotation": "0",
+          "#y_initialrotation": "0",
+          "#z_initialrotation": "0"
+        },
+        "Transform_objectscale": {
+          "#x_objectscale": "1",
+          "#y_objectscale": "1",
+          "#z_objectscale": "1"
+        },
+        "repeattransfrom": {
+          "distfactorx": "null",
+          "distfactory": "null",
+          "distfactorz": "null"
+        },
+        "Interaction": {
+          "XRGrabInteractable": "1",
+          "XRInteractionMaskLayer": "nothing/everything/custom",
+          "TrackPosition": "1",
+          "TrackRotation": "1",
+          "Throw_Detach": "1",
+          "forcegravity": "1",
+          "velocity": "0",
+          "angularvelocity": "0"
+        },
+        "Smoothing": "0",
+        "Smoothing_duration": "null",
+        "attachtransform": {
+          "#rotate_x": "null",
+          "#rotate_y": "null",
+          "#rotate_z": "null",
+          "#pos_x": "null",
+          "#pos_y": "null",
+          "#pos_z": "null"
+        },
+        "XRRigidObject": {
+          "value": "1",
+          "mass": "5",
+          "dragfriction": "2",
+          "angulardrag": "2",
+          "Isgravityenable": "1",
+          "IsKinematic": "1",
+          "CanInterpolate": "0",
+          "CollisionPolling": "discreet/continuous"
+        },
+        "aud_hasaudio": "false",
+        "aud_type": "",
+        "aud_src": "",
+        "aud_volume": "",
+        "aud_PlayInloop": "",
+        "aud_IsSurround": "",
+        "aud_Dopplerlevel": "",
+        "aud_spread": "",
+        "aud_mindist": "",
+        "aud_maxdist": "",
+        "_Opttxt1": "",
+        "@context_img_source": ""
+      },
+      {
+        "_objectname": "Enemy",
+        "_sid": "_ENEMY1",
+        "_slabel": "Enemy characters in single player mode",
+        "_IsHidden": 0,
+        "_enumcount": 3,
+        "_Is3DObject": 1,
+        "HasChild": 0,
+        "shape": "Humanoid",
+        "dimension": {
+          "dradii": "null",
+          "dvolumn": "null",
+          "dlength": 20,
+          "dbreadth": 50,
+          "dheight": 180
+        },
+        "IsText": false,
+        "IsText3D": false,
+        "lighting": {
+          "CastShadow": "1",
+          "ReceiveShadow": "1",
+          "ContributeGlobalIlumination": "1"
+        },
+        "IsIlluminate": true,
+        "Transform_initialpos": {
+          "#x_initialpos": "30",
+          "#y_initialpos": "30",
+          "#z_initialpos": "0"
+        },
+        "Transform_initialrotation": {
+          "#x_initialrotation": "0",
+          "#y_initialrotation": "0",
+          "#z_initialrotation": "0"
+        },
+        "Transform_objectscale": {
+          "#x_objectscale": "1",
+          "#y_objectscale": "1",
+          "#z_objectscale": "1"
+        },
+        "repeattransfrom": {
+          "distfactorx": "null",
+          "distfactory": "null",
+          "distfactorz": "null"
+        },
+        "Interaction": {
+          "XRGrabInteractable": "1",
+          "XRInteractionMaskLayer": "nothing/everything/custom",
+          "TrackPosition": "1",
+          "TrackRotation": "1",
+          "Throw_Detach": "1",
+          "forcegravity": "1",
+          "velocity": "5",
+          "angularvelocity": "2"
+        },
+        "Smoothing": "1",
+        "Smoothing_duration": "0.5",
+        "attachtransform": {
+          "#rotate_x": "null",
+          "#rotate_y": "null",
+          "#rotate_z": "null",
+          "#pos_x": "null",
+          "#pos_y": "null",
+          "#pos_z": "null"
+        },
+        "XRRigidObject": {
+          "value": "8",
+          "mass": "80",
+          "dragfriction": "5",
+          "angulardrag": "2",
+          "Isgravityenable": "true",
+          "IsKinematic": "1",
+          "CanInterpolate": "true",
+          "CollisionPolling": "discreet/continous"
+        },
+        "aud_hasaudio": "1",
+        "aud_type": "static/dynamic",
+        "aud_src": "resources/enemy_audio.mp3",
+        "aud_volume": "30",
+        "aud_PlayInloop": "0",
+        "aud_IsSurround": "0",
+        "aud_Dopplerlevel": "0.9",
+        "aud_spread": "null",
+        "aud_mindist": "null",
+        "aud_maxdist": "null",
+        "_Opttxt1": "null",
+        "@context_img_source": "blank"
+      }
+    ]
+  }
+  

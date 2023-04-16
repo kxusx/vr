@@ -1,0 +1,45 @@
+{
+    "ObjAction": [
+            {
+                "actresid": "sword-slash",
+                "sourceObj": "player-sword",
+                "targetObj": "enemy",
+                "IsCollision": true,
+                "response": "damage-enemy",
+                "comment": "The player slashes their sword at the enemy, dealing damage based on the strength of the attack and the enemy's armor",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+            {
+                "actresid": "parry",
+                "sourceObj": "enemy-sword",
+                "targetObj": "player",
+                "IsCollision": true,
+                "response": "damage-player",
+                "comment": "The enemy parries the player's attack, deflecting the sword and dealing damage to the player based on the strength of the attack and the player's armor",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+            {
+                "actresid": "block",
+                "sourceObj": "player-shield",
+                "targetObj": "enemy-sword",
+                "IsCollision": true,
+                "response": "block-enemy",
+                "comment": "The player blocks the enemy's sword attack with their shield, reducing or nullifying the damage dealt",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+            {
+                "actresid": "dodge",
+                "sourceObj": "player",
+                "targetObj": "enemy-sword",
+                "IsCollision": true,
+                "response": "dodge-enemy",
+                "comment": "The player dodges the enemy's sword attack, avoiding damage",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            }
+    ]
+    
+}
