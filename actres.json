@@ -11,7 +11,7 @@
                 "repeatactionfor": ""
             },
             {
-                "actresid": "parry",
+                "actresid": "enemy-parry",
                 "sourceObj": "enemy",
                 "targetObj": "player",
                 "IsCollision": true,
@@ -21,7 +21,27 @@
                 "repeatactionfor": ""
             },
             {
-                "actresid": "block",
+                "actresid": "player-parry",
+                "sourceObj": "player",
+                "targetObj": "enemy",
+                "IsCollision": true,
+                "response": "damage-player",
+                "comment": "The player parries the enemy's attack, deflecting the sword and dealing damage to the player based on the strength of the attack and the enemy's armor",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+            {
+                "actresid": "enemy-block",
+                "sourceObj": "enemy",
+                "targetObj": "player",
+                "IsCollision": true,
+                "response": "block-player",
+                "comment": "The enemy blocks the player's sword attack with their shield, reducing or nullifying the damage dealt",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+            {
+                "actresid": "player-block",
                 "sourceObj": "Armor Plate",
                 "targetObj": "enemy",
                 "IsCollision": true,
@@ -72,7 +92,7 @@
             },
             {
                 "actressid": "enemy-mace-bash",
-                
+
             }
 
             
