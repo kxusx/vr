@@ -1,5 +1,6 @@
 {
     "ObjAction": [
+            
             {
                 "actresid": "sword-slash",
                 "sourceObj": "Medieval Sword",
@@ -7,46 +8,6 @@
                 "IsCollision": true,
                 "response": "damage-enemy",
                 "comment": "The player slashes their sword at the enemy, dealing damage based on the strength of the attack and the enemy's armor",
-                "Syncronous": true,
-                "repeatactionfor": ""
-            },
-            {
-                "actresid": "enemy-parry",
-                "sourceObj": "enemy",
-                "targetObj": "player",
-                "IsCollision": true,
-                "response": "damage-player",
-                "comment": "The enemy parries the player's attack, deflecting the sword and dealing damage to the player based on the strength of the attack and the player's armor",
-                "Syncronous": true,
-                "repeatactionfor": ""
-            },
-            {
-                "actresid": "player-parry",
-                "sourceObj": "player",
-                "targetObj": "enemy",
-                "IsCollision": true,
-                "response": "damage-player",
-                "comment": "The player parries the enemy's attack, deflecting the sword and dealing damage to the player based on the strength of the attack and the enemy's armor",
-                "Syncronous": true,
-                "repeatactionfor": ""
-            },
-            {
-                "actresid": "enemy-block",
-                "sourceObj": "enemy",
-                "targetObj": "player",
-                "IsCollision": true,
-                "response": "block-player",
-                "comment": "The enemy blocks the player's sword attack with their shield, reducing or nullifying the damage dealt",
-                "Syncronous": true,
-                "repeatactionfor": ""
-            },
-            {
-                "actresid": "player-block",
-                "sourceObj": "Armor Plate",
-                "targetObj": "enemy",
-                "IsCollision": true,
-                "response": "block-enemy",
-                "comment": "The player blocks the enemy's sword attack with their shield, reducing or nullifying the damage dealt",
                 "Syncronous": true,
                 "repeatactionfor": ""
             },
@@ -71,16 +32,6 @@
                 "repeatactionfor": ""
             },
             {
-                "actresid": "enemy-slash",
-                "sourceObj": "enemy",
-                "targetObj": "player",
-                "IsCollision": true,
-                "response": "damage-player",
-                "comment": "The enemy slashes their sword at the player, dealing damage based on the strength of the attack and the player's armor",
-                "Syncronous": true,
-                "repeatactionfor": ""
-            },
-            {
                 "actresid": "shield-bash",
                 "sourceObj": "Armor Plate",
                 "targetObj": "enemy",
@@ -91,11 +42,131 @@
                 "repeatactionfor": ""
             },
             {
-                "actressid": "enemy-mace-bash",
+                "actresid": "enemy-slash",
+                "sourceObj": "enemy",
+                "targetObj": "player",
+                "IsCollision": true,
+                "response": "damage-player",
+                "comment": "The enemy slashes their sword at the player, dealing damage based on the strength of the attack and the player's armor",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
 
-            }
 
+            {
+                "actresid": "enemy-playerSword-parry",
+                "sourceObj": "enemy",
+                "targetObj": "Medieval Sword",
+                "IsCollision": true,
+                "response": "damage-player",
+                "comment": "The enemy parries the player's attack, deflecting the sword and dealing damage to the player based on the strength of the attack and the player's armor",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+            {
+                "actresid": "enemy-playerMace-parry",
+                "sourceObj": "enemy",
+                "targetObj": "Medieval Mace",
+                "IsCollision": true,
+                "response": "damage-player",
+                "comment": "The enemy parries the player's attack, deflecting the mace and dealing damage to the player based on the strength of the attack and the player's armor",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+            {
+                "actresid": "enemy-playerAxe-parry",
+                "sourceObj": "enemy",
+                "targetObj": "Medieval Axe",
+                "IsCollision": true,
+                "response": "damage-player",
+                "comment": "The enemy parries the player's attack, deflecting the axe and dealing damage to the player based on the strength of the attack and the player's armor",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+            {
+                "actresid": "player-parry",
+                "sourceObj": "player",
+                "targetObj": "enemy",
+                "IsCollision": true,
+                "response": "damage-player",
+                "comment": "The player parries the enemy's attack, deflecting the sword and dealing damage to the player based on the strength of the attack and the enemy's armor",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+
+
+            {
+                "actresid": "enemy-block-sword",
+                "sourceObj": "enemy",
+                "targetObj": "Medieval Sword",
+                "IsCollision": true,
+                "response": "block-player",
+                "comment": "The enemy blocks the player's sword attack with their shield, reducing or nullifying the damage dealt",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+            {
+                "actresid": "enemy-block-mace",
+                "sourceObj": "enemy",
+                "targetObj": "Medieval Mace",
+                "IsCollision": true,
+                "response": "block-player",
+                "comment": "The enemy blocks the player's mace attack with their shield, reducing or nullifying the damage dealt",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+            {
+                "actresid": "enemy-block-axe",
+                "sourceObj": "enemy",
+                "targetObj": "Medieval Axe",
+                "IsCollision": true,
+                "response": "block-player",
+                "comment": "The enemy blocks the player's axe attack with their shield, reducing or nullifying the damage dealt",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+            {
+                "actresid": "player-block",
+                "sourceObj": "Armor Plate",
+                "targetObj": "enemy",
+                "IsCollision": true,
+                "response": "block-enemy",
+                "comment": "The player blocks the enemy's sword attack with their shield, reducing or nullifying the damage dealt",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
             
+            {
+                "actressid": "player-dodge",
+                "sourceObj": "player",
+                "targetObj": "enemy",
+                "IsCollision": false,
+                "response": "dodge-player",
+                "comment": "The player dodges the enemy's attack, avoiding the damage dealt",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+            {
+                "actresid": "enemy-dodge",
+                "sourceObj": "enemy",
+                "targetObj": "player",
+                "IsCollision": false,
+                "response": "dodge-enemy",
+                "comment": "The enemy dodges the player's attack, avoiding the damage dealt",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+
+            {
+                "actressid": "dialog-click",
+                "sourceObj": "dialog",
+                "targetObj": "player",
+                "IsCollision": true,
+                "response": "dialog-click",
+                "comment": "The player clicks on the dialog box to continue the conversation",  
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
     ]
     
 }
