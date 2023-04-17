@@ -2,8 +2,8 @@
     "ObjAction": [
             {
                 "actresid": "sword-slash",
-                "sourceObj": "player-sword",
-                "targetObj": "enemy",
+                "sourceObj": "Medieval Sword",
+                "targetObj": "Enemy",
                 "IsCollision": true,
                 "response": "damage-enemy",
                 "comment": "The player slashes their sword at the enemy, dealing damage based on the strength of the attack and the enemy's armor",
@@ -12,7 +12,7 @@
             },
             {
                 "actresid": "parry",
-                "sourceObj": "enemy-sword",
+                "sourceObj": "enemy",
                 "targetObj": "player",
                 "IsCollision": true,
                 "response": "damage-player",
@@ -22,8 +22,8 @@
             },
             {
                 "actresid": "block",
-                "sourceObj": "player-shield",
-                "targetObj": "enemy-sword",
+                "sourceObj": "Armor Plate",
+                "targetObj": "enemy",
                 "IsCollision": true,
                 "response": "block-enemy",
                 "comment": "The player blocks the enemy's sword attack with their shield, reducing or nullifying the damage dealt",
@@ -31,15 +31,51 @@
                 "repeatactionfor": ""
             },
             {
-                "actresid": "dodge",
-                "sourceObj": "player",
-                "targetObj": "enemy-sword",
+                "actresid": "mace-bash",
+                "sourceObj": "Medieval Mace",
+                "targetObj": "enemy",
                 "IsCollision": true,
-                "response": "dodge-enemy",
-                "comment": "The player dodges the enemy's sword attack, avoiding damage",
+                "response": "stun-enemy",
+                "comment": "The player bashes the enemy with their mace, causing them to become stunned and unable to attack for a short period of time",
                 "Syncronous": true,
                 "repeatactionfor": ""
+            },
+            {
+                "actresid": "axe-chop",
+                "sourceObj": "Medieval Axe",
+                "targetObj": "enemy",
+                "IsCollision": true,
+                "response": "bleed-enemy",
+                "comment": "The player chops at the enemy with their axe, causing a deep wound that bleeds over time",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+            {
+                "actresid": "enemy-slash",
+                "sourceObj": "enemy",
+                "targetObj": "player",
+                "IsCollision": true,
+                "response": "damage-player",
+                "comment": "The enemy slashes their sword at the player, dealing damage based on the strength of the attack and the player's armor",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+            {
+                "actresid": "shield-bash",
+                "sourceObj": "Armor Plate",
+                "targetObj": "enemy",
+                "IsCollision": true,
+                "response": "stun-enemy",
+                "comment": "The player bashes the enemy with their shield, causing them to become stunned and unable to attack for a short period of time",
+                "Syncronous": true,
+                "repeatactionfor": ""
+            },
+            {
+                "actressid": "enemy-mace-bash",
+                
             }
+
+            
     ]
     
 }
